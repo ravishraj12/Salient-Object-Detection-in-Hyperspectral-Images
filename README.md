@@ -1,4 +1,5 @@
 # Salient-Object-Detection-in-Hyperspectral-Images
+For better understand of the details please view this file in code view instead of preview mode.
 Different Folders and Their Contents details:
 Evaluation Metrics Folder
           |
