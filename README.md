@@ -20,4 +20,17 @@ Post-Processing ---- This Folder contains different post-processing techniques t
      ----- normalise_band.ipynb - This file contains code for normalize each band in hyperspectral images.
      ----- normalise_band_max.py - This file contains code for normalize each band in hyperspectral images using max operation.
      ----- Full_system.ipynb - This file contains code for all the post-processing techniques mentioned above in one file.
-  
+Pre-Processing ---- This Folder contains different pre-processing techniques that can be applied to improve the results.
+    |
+    ---- Location_Append_Manhattan.ipynb - This file contains code for adding pixel coordinates to the hyperspectral images.
+Result
+   |
+   ---- HS_conv_images - This folder contains results after running full_system.ipynb for comparing the final salient object and mask(ground truth).
+   ---- HS_salmap - This folder contains final salient object we got after running full_system.ipynb.
+Salient Object Detection
+        |
+        Feature Map Extraction Using Clustering - This folder contains files that will be used for extracting salient object using clustering techniques.
+        Feature Map Extraction Usint Priors - This folder contains files that will be used for extracting salient object using priors like corner priors, center
+                                              priors.
+
+NOTE: You can add more pre-processing like dimension reduction etc. Also in Feature map extraction you can append contrast prior etc or using some other machine learning techniques like isolation forest etc.
